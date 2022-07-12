@@ -1,0 +1,18 @@
+package apples2;
+import javax.swing.JFrame;
+///// gives us the basic windows features 
+public class apples {
+public static void main(String[] args) {
+//////////// build obbject for tuna 
+	
+	tuna dimi = new tuna();
+//// building an object for tuna object is the window with line of text to it 
+	dimi.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//// how we want the program to close, hit the x button and the program can still run
+	dimi.setSize(275,180);
+	dimi.setVisible(true);
+	
+/// set size for the object dimi or window
+	
+}
+}
