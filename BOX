@@ -1,0 +1,24 @@
+package apples2;
+import java.awt.FlowLayout;
+import javax.swing.JFrame;
+///// gives us the basic frame of the window minimize, maximize, exit button etc.
+import javax.swing.JLabel;
+/// label is a line of text, also allows us to create and display images on the screen 
+
+public class tuna extends JFrame{
+//// inheritance: we need tuna to inherit all the stuff from "JFrame:  	
+	private JLabel item1;
+///// build a variable which will be our item : JLabel is the type 	
+	public tuna() {
+///// building a constructor 
+			super("The title bar");
+///// title of the window, only argument it takes is the title of the title bar 
+			setLayout( new FlowLayout());
+////// this will help us set the layout with parameters 
+			item1 = new JLabel("This is a sentence");
+//// we can create a scroll bar 
+			item1.setToolTipText("this will show up on hover");
+/////// now we add the item to the window with add
+			add(item1);
+	}
+}
