@@ -1,4 +1,5 @@
 import java.util.Scanner;
+// use this program to calulate days and minutes 
 public class MinutesConversion {
     public static void main(String[] args) {
         // Write your code here
